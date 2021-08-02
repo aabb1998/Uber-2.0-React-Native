@@ -2,7 +2,6 @@ import React from "react";
 import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
 import { FlatList } from "react-native-gesture-handler";
 import { Icon } from "react-native-elements";
-import { ICONS } from "jest-util/build/specialChars";
 import tailwind from "tailwind-rn";
 
 const data = [
