@@ -26,6 +26,7 @@ const NavOptions = () => {
 	const navigation = useNavigation();
 	return (
 		<FlatList
+			style={{ flexGrow: 0 }}
 			data={data}
 			keyExtractor={(item) => item.id}
 			horizontal
